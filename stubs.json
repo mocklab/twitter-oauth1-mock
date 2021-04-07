@@ -1,0 +1,126 @@
+{
+  "mappings" : [ {
+    "id" : "c66fd31f-30e6-499d-8453-1b7e32ea0469",
+    "name" : "Show user",
+    "request" : {
+      "urlPath" : "/1.1/users/show.json",
+      "method" : "GET"
+    },
+    "response" : {
+      "status" : 200,
+      "body" : "{\n  \"name\": \"Tom Akehurst\",\n  \"friends_count\": 1,\n  \"statuses_count\": 5,\n  \"followers_count\": 10\n}",
+      "headers" : {
+        "Content-Type" : "application/json"
+      }
+    },
+    "uuid" : "c66fd31f-30e6-499d-8453-1b7e32ea0469",
+    "persistent" : true,
+    "priority" : 5,
+    "metadata" : {
+      "mocklab" : {
+        "created" : {
+          "at" : "2021-04-07T16:22:40.144Z",
+          "via" : "ADMIN_API",
+          "by" : "7p1dp"
+        },
+        "updated" : {
+          "at" : "2021-04-07T16:32:09.068Z",
+          "via" : "ADMIN_API",
+          "by" : "7p1dp"
+        }
+      }
+    }
+  }, {
+    "id" : "99356d53-730f-4915-8726-4424e06bc380",
+    "name" : "Access token",
+    "request" : {
+      "urlPath" : "/oauth/access_token",
+      "method" : "POST"
+    },
+    "response" : {
+      "status" : 200,
+      "body" : "oauth_token=7588892-kagSNqWge8gB1WwE3plnFsJHAZVfxWD7Vb57p0b4&oauth_token_secret=PbKfYqSryyeKDWz4ebtY3o5ogNLG11WJuZBc9fQrQo&screen_name=Tom&user_id=12345",
+      "headers" : { }
+    },
+    "uuid" : "99356d53-730f-4915-8726-4424e06bc380",
+    "persistent" : true,
+    "priority" : 5,
+    "metadata" : {
+      "mocklab" : {
+        "created" : {
+          "at" : "2021-04-07T16:21:02.315Z",
+          "via" : "ADMIN_API",
+          "by" : "7p1dp"
+        },
+        "updated" : {
+          "at" : "2021-04-07T16:29:59.708Z",
+          "via" : "ADMIN_API",
+          "by" : "7p1dp"
+        }
+      }
+    }
+  }, {
+    "id" : "0f4b5acd-65bd-46d6-9dec-882270b4c8a7",
+    "name" : "Authorize",
+    "request" : {
+      "urlPath" : "/oauth/authorize",
+      "method" : "GET"
+    },
+    "response" : {
+      "status" : 302,
+      "body" : "",
+      "headers" : {
+        "Location" : "http://localhost:5000/callback?oauth_token=NPcudxy0yU5T3tBzho7iCotZ3cnetKwcTIRlX0iwRl0&oauth_verifier=uw7NjWHT6OJ1MpJOXsHfNxoAhPKpgI8BlYDhxEjIBY"
+      }
+    },
+    "uuid" : "0f4b5acd-65bd-46d6-9dec-882270b4c8a7",
+    "persistent" : true,
+    "priority" : 5,
+    "metadata" : {
+      "mocklab" : {
+        "created" : {
+          "at" : "2021-04-07T16:17:23.683Z",
+          "via" : "ADMIN_API",
+          "by" : "7p1dp"
+        },
+        "updated" : {
+          "at" : "2021-04-07T16:29:46.221Z",
+          "via" : "ADMIN_API",
+          "by" : "7p1dp"
+        }
+      }
+    }
+  }, {
+    "id" : "139f5588-fb2f-4fa2-9f9b-1bc7a0359dee",
+    "name" : "Request token",
+    "request" : {
+      "urlPath" : "/oauth/request_token",
+      "method" : "POST"
+    },
+    "response" : {
+      "status" : 200,
+      "body" : "oauth_token=NPcudxy0yU5T3tBzho7iCotZ3cnetKwcTIRlX0iwRl0&oauth_token_secret=veNRnAWe6inFuo8o2u8SLLZLjolYDmDP7SzL0YfYI&oauth_callback_confirmed=true",
+      "headers" : { }
+    },
+    "uuid" : "139f5588-fb2f-4fa2-9f9b-1bc7a0359dee",
+    "persistent" : true,
+    "priority" : 5,
+    "metadata" : {
+      "mocklab" : {
+        "created" : {
+          "at" : "2021-04-07T16:15:22.236Z",
+          "via" : "ADMIN_API",
+          "by" : "7p1dp"
+        },
+        "updated" : {
+          "at" : "2021-04-07T16:26:08.682Z",
+          "via" : "ADMIN_API",
+          "by" : "7p1dp"
+        }
+      }
+    }
+  } ],
+  "meta" : {
+    "total" : 4
+  }
+}
