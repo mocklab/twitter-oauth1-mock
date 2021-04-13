@@ -1,5 +1,63 @@
 {
   "mappings" : [ {
+    "id" : "201a1fd3-b6bd-4754-a3c4-eb22f6f042fa",
+    "name" : "Favicon",
+    "request" : {
+      "url" : "/favicon.png",
+      "method" : "GET"
+    },
+    "response" : {
+      "status" : 200,
+      "base64Body" : "iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH4AcYDC8A5hvTSwAABI1JREFUWMO11m2IXWcRB/Df85x7Ny9tYivpq4La2hahiiCazaZ2FzVCP4hKo+AnrYKuolXSJGgqGhFBTGIhKqkWaj6kon4oCopCU7MbmjfBiFaJlZAWShJDEqK2WXf33nvGD+du9mRzk91tsn+43HPPzDPzn5lnZm4yT2w5MAQJi7rfIrRS1t7QPzJfc5WBK2HbgSF9ixeZ+N/4Crwd78I9uLF2/jyO4TAO55ROoFy3anZClyXw/b1D0mTSWRJvkmIt1uJeXHeZc4EJHMVvJLuydGQ2Ij0JbN0/KLEkeBDr8A4U88zuMfw48URwbv3A6OwEHjv0Pu12h5RWJPF1fAbX94i0hWbtfLv7vjlDt4VfYZMyHdUI6/tHexPYPLLGskWTItJtxGPdlNejnsRf8DucwXewrCv7PX6BNXg/bplBZC+GIxwpimxd/54Lgjz1sKxvkrCc2IyPzXB+BA/jQxHxTezuRj2F49iZUvo0PoynMF6T34+tKbm9LMuLmGX43r4hY5PNFDyET9aIdfBrfLzU+Ekpn0rp8o3zyKqRieBQRBrGJpyriR/AxiQt2la18jSBnMKSvtY78WVVf0/V+ml8Qfhbzu3YOLDHbNgwMCpHvJo6foBv4JVauT8V4gMhbH2uIpG3HRiSUmric3hLzdYhfBUnGql9yeW5Eh65b5RCO0lP4MluMPA6fFYnTd0dOSJExN3dFE3hv/hu4lgZyVcG9s3Z+QUSA6NCTOCHeL4mGpTj3XJMlwCDeGNN6Vll2h2RbFw9Mm/n00g6jfGj+OWMLDyQ26UtB4dkZe7DfTUyk3hajvPrr8o56wdGFO3FVK17tibq7zSK1yvJcrkCd9WEp/DHq/J8KV7CP2u/35zETUnIWI7basIXSafnsKfmiCTkVyq7F3Cj7oRtFMl44jncgBwcaDE2i/vzGFVNwkI1qHoitymWlq2ybV/iZtVsGVdddI1HD/edw89V/Z9xbOxMntjywYkrEXhZNS2nEJdTXHf/iKVfWgkH8W+Uqil6BlKxfc29+ANu6p7ZiYc6Dz9zTQrQGF6p3WkpiuYODNcyOIg/5R5nrlXxL6SmKJrXubjNJ1SbUn4tRueN5Ba8rfbmpHBO0FhQx8P9VQ7CyhkZ+LuUTi14BgpBshyfML3kOthNTHYeP7hwBPLnVypKhI+o/qRM4YVg91TbLAiBxvB7KLNOtgqPYmlXVOJnN//j1hfLJRMLQyANr9JOzZRSuRo/wt018X5i5+l7/sWdJyuy18zz8Hs107gyyhtEuRZfwx01jRP4dop8vMwlXzx1lQQ236H58hvE4vEiOvl6Jm8vIw+oJuQgFte0T2NTLuKZKCl3TO+6XgRW46fF9jVXGkhZ8kJ59tXfauUNqmV2F27tYfMENpF3lZ2IzuMHLxL2IvDW7mc27MdfuxE3e8g72IdvFY1yT9mJaO+4dMsvxCCaVG3HXcRTkpOdsazz5KGeyg3VZjqr2gExRycN1WabVG21spvq5/FssLfsax1PImL7n2c19BI++hqyMaa6XGvQifCflNIZtMpunecSzf8BAfiTd64y2vUAAAAldEVYdGRhdGU6Y3JlYXRlADIwMTYtMDctMjRUMTI6NDc6MDArMDE6MDBVUQnnAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDE2LTA3LTI0VDEyOjQ3OjAwKzAxOjAwJAyxWwAAAABJRU5ErkJggg==",
+      "headers" : {
+        "Content-Type" : "image/png"
+      }
+    },
+    "uuid" : "201a1fd3-b6bd-4754-a3c4-eb22f6f042fa",
+    "persistent" : true,
+    "priority" : 5,
+    "metadata" : {
+      "mocklab" : {
+        "created" : {
+          "at" : "2021-04-13T10:11:59.273Z",
+          "via" : "ADMIN_API",
+          "by" : "7p1dp"
+        }
+      }
+    }
+  }, {
+    "id" : "a9ddd64f-7612-4089-9e13-69a98a3012be",
+    "name" : "Login handler",
+    "request" : {
+      "url" : "/login",
+      "method" : "POST"
+    },
+    "response" : {
+      "status" : 302,
+      "body" : "",
+      "headers" : {
+        "Location" : "{{formData request.body 'form' urlDecode=true}}{{#assign 'callbackUrl'}}{{{base64 form.oauth_token decode=true}}}{{/assign}}{{{callbackUrl}}}?oauth_token={{{form.oauth_token}}}&oauth_verifier=uw7NjWHT6OJ1MpJOXsHfNxoAhPKpgI8BlYDhxEjIBY"
+      },
+      "transformers" : [ "response-template" ]
+    },
+    "uuid" : "a9ddd64f-7612-4089-9e13-69a98a3012be",
+    "persistent" : true,
+    "priority" : 5,
+    "metadata" : {
+      "mocklab" : {
+        "created" : {
+          "at" : "2021-04-10T17:35:18.072Z",
+          "via" : "ADMIN_API",
+          "by" : "7p1dp"
+        },
+        "updated" : {
+          "at" : "2021-04-13T10:05:25.745Z",
+          "via" : "ADMIN_API",
+          "by" : "7p1dp"
+        }
+      }
+    }
+  }, {
     "id" : "c66fd31f-30e6-499d-8453-1b7e32ea0469",
     "name" : "Show user",
     "request" : {
@@ -19,14 +77,8 @@
     "metadata" : {
       "mocklab" : {
         "created" : {
-          "at" : "2021-04-07T16:22:40.144Z",
-          "via" : "ADMIN_API",
-          "by" : "7p1dp"
-        },
-        "updated" : {
-          "at" : "2021-04-07T16:32:09.068Z",
-          "via" : "ADMIN_API",
-          "by" : "7p1dp"
+          "at" : "2021-04-10T17:17:25.985Z",
+          "via" : "SYSTEM"
         }
       }
     }
@@ -48,14 +100,8 @@
     "metadata" : {
       "mocklab" : {
         "created" : {
-          "at" : "2021-04-07T16:21:02.315Z",
-          "via" : "ADMIN_API",
-          "by" : "7p1dp"
-        },
-        "updated" : {
-          "at" : "2021-04-07T16:29:59.708Z",
-          "via" : "ADMIN_API",
-          "by" : "7p1dp"
+          "at" : "2021-04-10T17:17:25.984Z",
+          "via" : "SYSTEM"
         }
       }
     }
@@ -67,11 +113,12 @@
       "method" : "GET"
     },
     "response" : {
-      "status" : 302,
-      "body" : "",
+      "status" : 200,
+      "body" : "\n\n<!DOCTYPE html>\n<html>\n  <head>\n    <style type=\"text/css\">\n      body {\n        font-family: sans-serif;   \n      }\n      \n      #login-box {\n        max-width: 400px;\n        margin-left:auto;\n        margin-right: auto;\n        margin-top: 100px;\n        border: 1px solid black;\n        padding: 15px\n      }\n      \n      .text-input {\n        height: 1.5rem;\n        width: 20rem;\n      }\n      \n      .help-text {\n          max-width: 600px;\n          margin-left: auto;\n          margin-right: auto;\n          margin-top: 50px;\n          text-align: center;\n          color: darkgray;\n          line-height: 1.5em;\n          font-weight: lighter;\n          font-size: 1.5em;\n          padding: 15px;\n      }\n      \n      @media (max-width: 1000px) {\n        body {\n          font-size: 24px;\n        }\n        \n        label {\n          font-size: 38px;\n        }\n        \n        .text-input {\n            height: 1.5em;\n            width: 100%;\n            font-size: 2em;\n        }\n        \n        #login-box {\n          max-width: 100%;\n        }\n        \n        .help-text {\n          max-width: 100%;\n        }\n      }\n    </style>\n    <link rel=\"shortcut icon\" type=\"image/x-icon\" href=\"/favicon.png\">\n    <title>Simulated Twitter OAuth 1.0a Login - Powered by MockLab</title>\n  </head>\n<body>\n  <div id=\"login-box\">\n    <div id=\"logos\" style=\"text-align: center;margin-top:15px;margin-bottom:15px\">\n      <a href=\"http://mocklab.io\" target=\"_new\">\n        <img src=\"https://www.mocklab.io/images/mocklab_logo_with_text.png\" alt=\"MockLab\" style=\"height:50px\"/>\n      </a>\n    </div>\n    <p>Simulated Twitter OAuth 1.0a login service, powered by <a href=\"http://mocklab.io\" target=\"_new\">MockLab</a></p>\n    <br />\n    {{#eq request.query.error.0 'invalidUser'}}\n    <p style=\"color: red\">Error: not a recognised user</p>\n    {{/eq}}\n    <form method=\"POST\" action=\"/login\">\n      <input type=\"hidden\" name=\"oauth_token\" value=\"{{{request.query.oauth_token}}}\"/>\n      \n      {{!--<label for=\"email\">Twitter handle:</label><br />--}}\n      {{!--<input class=\"text-input\" type=\"text\" name=\"twitterHandle\" placeholder=\"@MyTwitter\"/><br /><br />--}}\n      \n      <br /><br />\n      <input id=\"login-submit\" type=\"submit\" value=\"Login\" style=\"font-size: 200%\" />\n    </form>\n  </div>\n  \n  {{!--<div class=\"help-text\">--}}\n  {{!--  How to use: enter Twitter handle, real or fake, then hit Login.--}}\n  {{!--</div>--}}\n</body>\n</html>",
       "headers" : {
-        "Location" : "http://localhost:5000/callback?oauth_token=NPcudxy0yU5T3tBzho7iCotZ3cnetKwcTIRlX0iwRl0&oauth_verifier=uw7NjWHT6OJ1MpJOXsHfNxoAhPKpgI8BlYDhxEjIBY"
-      }
+        "Content-Type" : "text/html"
+      },
+      "transformers" : [ "response-template" ]
     },
     "uuid" : "0f4b5acd-65bd-46d6-9dec-882270b4c8a7",
     "persistent" : true,
@@ -79,12 +126,11 @@
     "metadata" : {
       "mocklab" : {
         "created" : {
-          "at" : "2021-04-07T16:17:23.683Z",
-          "via" : "ADMIN_API",
-          "by" : "7p1dp"
+          "at" : "2021-04-10T17:17:25.982Z",
+          "via" : "SYSTEM"
         },
         "updated" : {
-          "at" : "2021-04-07T16:29:46.221Z",
+          "at" : "2021-04-13T10:24:18Z",
           "via" : "ADMIN_API",
           "by" : "7p1dp"
         }
@@ -99,8 +145,9 @@
     },
     "response" : {
       "status" : 200,
-      "body" : "oauth_token=NPcudxy0yU5T3tBzho7iCotZ3cnetKwcTIRlX0iwRl0&oauth_token_secret=veNRnAWe6inFuo8o2u8SLLZLjolYDmDP7SzL0YfYI&oauth_callback_confirmed=true",
-      "headers" : { }
+      "body" : "{{#trim}}\n{{formData request.body 'form' urlDecode=true}}\noauth_token={{{base64 form.oauth_callback padding=false}}}&oauth_token_secret=veNRnAWe6inFuo8o2u8SLLZLjolYDmDP7SzL0YfYI&oauth_callback_confirmed=true\n{{/trim}}",
+      "headers" : { },
+      "transformers" : [ "response-template" ]
     },
     "uuid" : "139f5588-fb2f-4fa2-9f9b-1bc7a0359dee",
     "persistent" : true,
@@ -108,12 +155,11 @@
     "metadata" : {
       "mocklab" : {
         "created" : {
-          "at" : "2021-04-07T16:15:22.236Z",
-          "via" : "ADMIN_API",
-          "by" : "7p1dp"
+          "at" : "2021-04-10T17:17:25.98Z",
+          "via" : "SYSTEM"
         },
         "updated" : {
-          "at" : "2021-04-07T16:26:08.682Z",
+          "at" : "2021-04-13T10:08:36.366Z",
           "via" : "ADMIN_API",
           "by" : "7p1dp"
         }
@@ -121,6 +167,6 @@
     }
   } ],
   "meta" : {
-    "total" : 4
+    "total" : 6
   }
 }
